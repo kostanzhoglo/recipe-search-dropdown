@@ -32,6 +32,7 @@ class RecipeSearch extends Component {
   onChange = e => {
     const { suggestions } = this.props;
     const userInput = e.currentTarget.value;
+    
     // console.log(userInput)
 
     const filteredSuggestions = suggestions.filter(
