@@ -48,7 +48,7 @@ const ingredients = [
   'heavy cream',
   'eggs',
   'parmesan',
-  'bacon’
+  'bacon'
 ]
 
 export default ingredients;
