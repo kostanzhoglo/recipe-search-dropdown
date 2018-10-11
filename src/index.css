@@ -21,9 +21,14 @@ h2 {
 
 .recipeAnswers div {
   font-size: 1.25em;
-  width: 300px;
+  width: 270px;
   margin: auto;
   margin-top: 8px
+}
+
+@media only screen and (min-width: 350px) {
+  .recipeAnswers div { width: 300px }
+  input { width: 300px }
 }
 
 @media only screen and (min-width: 425px) {
@@ -49,7 +54,7 @@ code {
 input {
   border: 1px solid #999;
   padding: 0.5rem;
-  width: 300px;
+  width: 270px;
   font-size: 1em;
 }
 
