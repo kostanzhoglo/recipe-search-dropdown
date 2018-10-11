@@ -17,9 +17,9 @@ class RecipeListContainer extends Component {
       <div>
         <h1>I'm Hungry and in an Adventurous Mood!</h1>
         <h2>Type some ingredients & search for a recipe.</h2>
-        <div>
+        <h3>
           When you're done typing, either click a suggestion, or simply wait, and the search results will appear in a moment...
-        </div>
+        </h3>
         <RecipeSearch
           getRecipes={this.getRecipes}
           suggestions={ingredients}

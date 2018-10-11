@@ -19,6 +19,12 @@ h2 {
   margin: 5%
 }
 
+h3 {
+  font-size: 1.2em;
+  color: #ff6699;
+  margin: 2%
+}
+
 .recipeAnswers div {
   font-size: 1.25em;
   width: 270px;
@@ -35,15 +41,18 @@ h2 {
   body { font-size: 85% }
   h1 { padding: 7% }
   h2 { margin: 3% }
+  h3 { margin: 5% }
 }
 
 @media only screen and (min-width: 768px) {
   body { font-size: 100% }
   h1 { padding: 2% }
+  h3 { margin-left: 10%; margin-right: 10% }
 }
 
 @media only screen and (min-width: 900px) {
   body { font-size: 115% }
+  h3 { margin-left: 20%; margin-right: 20% }
 }
 
 code {
