@@ -27,7 +27,7 @@ class RecipeListContainer extends Component {
   }
 
   getRecipes = (userInput) => {
-    console.log(userInput)
+    // console.log(userInput)
     // Two websites helped me with CORS issue when fetching w/o a backend:
     // 1) https://github.com/Rob--W/cors-anywhere
     // 2) https://stackoverflow.com/questions/29670703/how-to-use-cors-anywhere-to-reverse-proxy-and-add-cors-headers
