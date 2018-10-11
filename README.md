@@ -6,9 +6,13 @@ A simple web app to type in some ingredients and get back a list of recipes to t
 
 1) Clone this repo to your local computer.  Press GREEN button on GitHub page, and copy the repo. (git@github.com:kostanzhoglo/recipe-search-dropdown.git)
 2) In Terminal:
+
    git clone git@github.com:kostanzhoglo/recipe-search-dropdown.git
+
    cd recipe-search-dropdown
+
    npm install
+   
    npm start
 3) The web page should load automatically in your browser.
 
