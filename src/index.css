@@ -6,9 +6,83 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 70%;
+}
+
+h1 {
+  font-size: 2.5em;
+  padding: 5%
+}
+
+h2 {
+  font-size: 1.75em;
+  margin: 5%
+}
+
+.recipeAnswers div {
+  font-size: 1.25em;
+  width: 300px;
+  margin: auto;
+  margin-top: 8px
+}
+
+@media only screen and (min-width: 425px) {
+  body { font-size: 85% }
+  h1 { padding: 7% }
+  h2 { margin: 3% }
+}
+
+@media only screen and (min-width: 768px) {
+  body { font-size: 100% }
+  h1 { padding: 2% }
+}
+
+@media only screen and (min-width: 900px) {
+  body { font-size: 115% }
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+input {
+  border: 1px solid #999;
+  padding: 0.5rem;
+  width: 300px;
+  font-size: 1em;
+}
+
+.no-suggestions {
+  color: #999;
+  padding: 0.5rem;
+}
+
+.suggestions {
+  border: 1px solid #999;
+  border-top-width: 0;
+  list-style: none;
+  margin-top: 0;
+  max-height: 143px;
+  overflow-y: auto;
+  padding-left: 0;
+  width: calc(300px + 1rem);
+  margin: auto;
+  font-size: 1em
+}
+
+.suggestions li {
+  padding: 0.5rem;
+}
+
+.suggestion-active,
+.suggestions li:hover {
+  background-color: #008f68;
+  color: #fae042;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.suggestions li:not(:last-of-type) {
+  border-bottom: 1px solid #999;
 }
